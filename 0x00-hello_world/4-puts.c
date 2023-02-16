@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - This is a program to output a sentense using puts
+ * main - Entry point for this program
  * 
- * Return: 0 (success)
- **/
+ * Return: 0 on program completion
+ */
 int main(void)
 {
 	puts("Programming is like building a multilingual puzzle\n");
