@@ -1,0 +1,10 @@
+#include <stdioh>
+/**
+*main - Agraeat mystry
+*Return(0) sucess
+**/
+int main(void)
+{
+  puts("/"Programming is like building a multi lingual puzzle/n";
+ Return(0);
+}
