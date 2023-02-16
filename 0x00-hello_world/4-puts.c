@@ -1,7 +1,10 @@
 #include <stdio.h>
-/* this is a program to output a sentense using puts */
+/**
+ * main - this is a program to output a sentense using puts
+ * Return: 0 (success)
+ **/
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle"/n);
-	Return (0)
+	puts("\"Programming is like building a multilingual puzzle/n");
+	Return(0)
 }
