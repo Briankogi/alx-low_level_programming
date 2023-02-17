@@ -1,6 +1,10 @@
 #include <stdio.h>
-/* This is a program that prints a sentence using printf */
+/**
+ * main -  This program prints a statement using printf
+ * return (0) sucess
+ **/
 int main(void)
 {
-	printf("with proper grammer,but the outcome is a piece of art,"/n);
-}	
+	printf ("with proper grammar,but the outcome is a piece of art.\n");
+	return (0);
+}
