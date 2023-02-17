@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* This is a program that prints the types of various types on computer */
+/**
+ * main - Entry point for this program
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	char a;
@@ -12,4 +15,5 @@ int main(void)
 	printf("Size of long int: %lu byte(s)\n", (unsigned long)sizeof(c);
 	printf("Size of long long int: %lu byte(s)\n", (unsigned long)sizeof(d);
 	printf("Size of float: %lu byte(s)\n", (unsigned long)sizeof(e);
-	Return (o)
+	Return (0);
+
