@@ -4,7 +4,7 @@
 /**
 * main - This is a way to print  using message
 *
-* Return Always 0 (Success)
+* Return: Always 0 (Success)
 */
 int main(void)
 {
