@@ -1,4 +1,4 @@
-#import <stdio.h>
+#include <stdio.h>
 /**
  * main -This is a program that prints the types of various types on computer
  *
