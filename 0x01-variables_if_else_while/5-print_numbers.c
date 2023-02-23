@@ -2,7 +2,7 @@
 /**
  * main - This is the entry point of the program
  *
- * Return:  0always a success
+ * Return:  0 always a success
  */
 int main(void)
 {
@@ -10,6 +10,6 @@ int main(void)
 
 	for (i = 0; i < 10; ++i)
 	{
-		printf("%d", i);
+		printf("%d", i/n);
 	}
 }
