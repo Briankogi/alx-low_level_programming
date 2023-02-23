@@ -6,11 +6,13 @@
  */
 int main(void)
 {
-	for (int i = 0; i < 10; i++)
+	int i,j,k;
+
+	for (i = 0; i < 10; i++)
 	{
-		for (int j = i + 1; j < 10; j++)
+		for (j = i + 1; j < 10; j++)
 		{
-			for (int k = j + 1; k < 10; k++)
+			for (k = j + 1; k < 10; k++)
 			{
 				if ((i * 100 + j * 10 + k) == (100 * (i != 0) + 10 * (j != 0) + k))
 				{
