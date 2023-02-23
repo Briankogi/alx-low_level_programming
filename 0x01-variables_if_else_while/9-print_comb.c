@@ -7,6 +7,7 @@
 int main(void)
 {
 	int i;
+	char a[] = {','' '}
 
 	for (i = 1; i < 10; i++)
 	{
