@@ -7,14 +7,13 @@
 int main(void)
 {
 	int i;
-	char a[] = {','' '}
 
 	for (i = 1; i < 10; i++)
 	{
 		putchar(',');
-		putchar('');
+		putchar(' ');
 		putchar(i + '0');
 	}
 	putchar('\n');
 	return (0);
-}
+i}
