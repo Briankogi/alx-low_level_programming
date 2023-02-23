@@ -1,8 +1,12 @@
 #include <stdio.h>
-
+/**
+ * main - This is the entry point of the program
+ *
+ * Return: Always 0(success)
+ */
 int main(void)
 {
-	int i,j;
+	int i, j;
 
 	for (i = 0; i < 10; i++)
 	{
