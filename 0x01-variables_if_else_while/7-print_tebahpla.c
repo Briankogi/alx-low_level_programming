@@ -12,4 +12,5 @@ int main(void)
 	{
 		putchar(letter);
 	}
+	return (0);
 }
