@@ -1,6 +1,7 @@
-include "main"
+include "main.h"
 /**
- * This program prints a-z
+ * print_alphabet - This program prints a-z
+ * Return: void
  */
 void print_alphabet(void)
 {
