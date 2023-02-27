@@ -7,12 +7,13 @@
 void rev_string(char *s)
 {
 	int i, length;
+	int k[1000]
 
 	for (; s[length] != '\0'; length++)
 	{
 
 	}
-	int k[length];
+	length = x;
 
 	for (i = length; i >= 0; --i)
 	{
