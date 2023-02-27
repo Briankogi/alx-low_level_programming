@@ -23,7 +23,7 @@ void rev_string(char *s)
 	}
 
 	j[k] = '\0';
-	for (k >= 0; k <= b; k++)
+	for (k = 0; k <= b; k++)
 	{
 		s[i] = j[k];
 		i++;
