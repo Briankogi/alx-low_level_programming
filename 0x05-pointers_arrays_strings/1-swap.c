@@ -5,7 +5,7 @@
  * @b: This is the second integer
  * Return: void
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int *j;
 
