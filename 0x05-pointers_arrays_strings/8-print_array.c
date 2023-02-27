@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_array - prints n elements of an array of integer, then new line
  * @a: This is the array
