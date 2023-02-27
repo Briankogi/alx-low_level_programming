@@ -7,7 +7,7 @@
 void rev_string(char *s)
 {
 	int i, x, length;
-	int k[1000];
+	int k[];
 
 	for (; s[length] != '\0'; length++)
 	{
@@ -17,8 +17,8 @@ void rev_string(char *s)
 	for (i = length; i >= 0; --i)
 	{
 		k[x] = s[i];
+		_putchar(k[x]);
 		x++;
 	}
-	_putchar(k[]);
 
 }
