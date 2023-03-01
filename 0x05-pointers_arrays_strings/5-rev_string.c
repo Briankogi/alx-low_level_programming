@@ -1,12 +1,14 @@
 #include "main.h"
 /**
  * rev_string - This is a program reverses a string.
- * @s: This is the string needed
+ * @s: This is the string needed, shouldnt be above 80 char
  * Return: void
  */
 void rev_string(char *s)
 {
 	int a, x, length;
+
+	char k[80];
 
 	x = 0;
 	length = 0;
@@ -18,8 +20,6 @@ void rev_string(char *s)
 	}
 
 	x++;
-
-	char k[x];
 
 	length--;
 
