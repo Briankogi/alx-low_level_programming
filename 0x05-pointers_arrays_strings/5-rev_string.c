@@ -7,6 +7,7 @@
 void rev_string(char *s)
 {
 	int a, x, length;
+	char k[x];
 
 	x = 0;
 	length = 0;
@@ -18,8 +19,6 @@ void rev_string(char *s)
 	}
 
 	x++;
-
-	char k[x];
 
 	length--;
 
