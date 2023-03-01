@@ -6,19 +6,36 @@
  */
 void rev_string(char *s)
 {
-	int i, x, length;
-	int k[1000];
+	int a, x, length;
 
-	for (; s[length] != '\0'; length++)
+	x = 0;
+	length = 0;
+	a = 0;
+
+	for (; s[length] != '\0'; ++length)
 	{
-
-	}
-
-	for (i = length; i >= 0; --i)
-	{
-		k[x] = s[i];
 		x++;
 	}
-	_putchar(k[]);
+
+	x++;
+
+	char k[x];
+
+	length--;
+
+	for (; length >= 0; --length)
+	{
+		k[a] = s[length];
+		a++;
+	}
+
+	k[a] = '\0';
+	length = 0;
+
+	for (; k[length] != '\0'; ++length)
+	{
+		s[length] = k[length];
+	}
+	s[length] = '\0';
 
 }
