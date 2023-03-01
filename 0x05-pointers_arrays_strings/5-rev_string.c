@@ -34,8 +34,10 @@ void rev_string(char *s)
 
 	for (; k[length] != '\0'; ++length)
 	{
+
 		s[length] = k[length];
 	}
+
 	s[length] = '\0';
 
 }
