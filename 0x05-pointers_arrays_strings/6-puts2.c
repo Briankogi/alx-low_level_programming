@@ -14,7 +14,7 @@ void puts2(char *str)
 	{
 		length++;
 		y = length % 2;
-		if (length != 0)
+		if (y != 0)
 		{
 			_putchar(str[x]);
 		}
