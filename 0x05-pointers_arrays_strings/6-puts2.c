@@ -10,7 +10,7 @@ void puts2(char *str)
 
 	length = 0;
 
-	for (x => 0; str[x] != '\0'; ++x)
+	for (x >= 0; str[x] != '\0'; ++x)
 	{
 		length++;
 		y = length % 2
