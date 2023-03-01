@@ -14,7 +14,7 @@ void puts_half(char *str)
 	for (; str[i] != '\0'; ++i)
 	{
 	}
-	x == i;
+	x = i;
 	x %= x
 
 	if (x != 0)
@@ -23,8 +23,8 @@ void puts_half(char *str)
 	}
 	
 	i = y;
-	y /=y
-	i = y
+	y /=y;
+	i = y;
 
 	for (;str[i] != '\n' ; ++i)
 	{
