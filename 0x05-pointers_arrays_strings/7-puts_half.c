@@ -21,9 +21,8 @@ void puts_half(char *str)
 		i--;
 	}
 	
+	y = i / 2;
 	i = y;
-	y /=y;
-	i = y + 1;
 
 	for (;str[i] != '\n' ; ++i)
 	{
