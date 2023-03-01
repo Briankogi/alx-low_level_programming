@@ -24,7 +24,7 @@ void puts_half(char *str)
 	
 	i = y;
 	y /=y;
-	i = y;
+	i = y + 1;
 
 	for (;str[i] != '\n' ; ++i)
 	{
