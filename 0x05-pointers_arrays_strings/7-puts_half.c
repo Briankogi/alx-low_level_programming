@@ -13,24 +13,22 @@ void puts_half(char *str)
 
 	for (; str[i] != '\0'; ++i)
 	{
-		length++;
 	}
-	y = length;
+	x == i;
+	x %= x
 
-	x = length % 2;
-
-	if (x == 0)
+	if (x != 0)
 	{
-		length--;
+		i--;
 	}
+	
+	i = y;
+	y /=y
+	i = y
 
-	length /= 2;
-	i = length + 1;
-
-	for (; i <= y; ++i)
+	for (;str[i] != '\n' ; ++i)
 	{
 		_putchar(str[i]);
 	}
-	_putchar(str[i] = '\0');
-	_putchar('\0');
+	_putchar('\n');
 }
