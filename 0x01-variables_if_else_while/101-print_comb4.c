@@ -8,13 +8,13 @@ int main(void)
 {
 	int i,j,k;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 9; i++)
 	{
-		for (j = i + 1; j < 10; j++)
+		for (j = 0; j < 9; j++)
 		{
-			for (k = j + 1; k < 10; k++)
+			for (k = 0; k < 9; k++)
 			{
-				if ((i * 100 + j * 10 + k) == (100 * (i != 0) + 10 * (j != 0) + k))
+				if (i < j && j < k)
 				{
 					putchar(i + '0');
 					putchar(j + '0');
