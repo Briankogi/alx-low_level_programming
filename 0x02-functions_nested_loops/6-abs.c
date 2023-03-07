@@ -4,7 +4,7 @@
  * @int: the variable to check
  * Return: the absolute value of int
  */
-int _abs(int)
+int _abs(int n)
 {
 	int n;
 
