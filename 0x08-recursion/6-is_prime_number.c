@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * is_prime_number
- * @n:
- * Return: 
+ * is_prime_number -  returns 1 if the input integer is a prime number
+ * @n: This is the input number
+ * Return: 1 if prime 0 if not
  */
 int is_prime_number(int n)
 {
@@ -11,8 +11,8 @@ int is_prime_number(int n)
 
 	if (n < 2)
 		return (0);
-	if (n = 2)
-		return (1)
+	if (n == 2)
+		return (1);
 	if (n > 2)
 	{
 		decim = n % 2;
