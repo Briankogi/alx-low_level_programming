@@ -19,7 +19,7 @@ void _print_rev_recursion(char *s)
 	{
 		_putchar(s[length]);
 		length--;
-		_print_rev_recursion(*s);
+		_print_rev_recursion();
 	}
 
 	_putchar('\n');

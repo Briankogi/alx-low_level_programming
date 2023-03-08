@@ -19,7 +19,7 @@ int factorial(int n)
 		{
 			fin += number;
 			number++;
-			factorial(n);
+			factorial();
 		}
 	}
 }
