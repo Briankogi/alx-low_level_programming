@@ -10,13 +10,24 @@
 
 int _sqrt_recursion(int n)
 {
-	int turns;
+	int a;
 
 	if (n < 0)
 		return (-1);
-	else
+	if (n == 1 || n == 0 )
+		return (n);
+	if(n > 1)
 	{
-		turns = sqrt(n);
-		return (turns);
+		
+		a = 0;
+		a *= a;
+		
+		if (n > a)
+		       return (0);	
+		if (n == a)
+			return (n);
+		else
+			a++;
+			_sqrt_recursion;
 	}
 }
