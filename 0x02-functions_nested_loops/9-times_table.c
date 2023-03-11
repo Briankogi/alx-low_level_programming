@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * times_table - 9 times table, starting with 0
  * Return: void
