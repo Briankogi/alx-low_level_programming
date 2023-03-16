@@ -18,14 +18,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		s1 = "";
 	}
-	if (si == NULL)
+	if (s2 == NULL)
 	{
 		S2 = "";
 	}
 	for (; s1[i] != '\0'; i++;)
 	{
 	}
-	for (; l <= n; l++)
+	for (; s2[l] <= n; l++)
 	{
 	}
 	new = malloc(sizeof(char) * (i + l + 1));
