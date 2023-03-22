@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "function_pointers.h"
 
 int main(int argc, char *argv[])
 {
@@ -18,14 +17,12 @@ int main(int argc, char *argv[])
 		return (2);
 	}
 
-	unsigned char *ptr = (unsigned char *) main;
-
+	unsigned char *ptr = (unsigned char *)&main;
 	for (int i = 0; i < num_bytes; i++)
 	{
-		printf("%02x ", *ptr);
-		ptr++;
+		printf("%02x", ptr[i]);
 	}
-	printf("\n");
 
+	printf("\n");
 	return (0);
 }
