@@ -12,36 +12,36 @@
  */
 
 int main(int argc, char *argv[])
+	#include "3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+
+/**
+* main -  use atoi to convert arguments to int
+* @argc: argc
+* @argv: argv
+*
+* Return: 0 on success
+*/
+int main(int argc, char *argv[])
 {
-	int num1, num2, result;
-	int (*op_func)(int, int);
+	int (*oprt)(int, int);
 
 	if (argc != 4)
 	{
 		printf("Error\n");
-		return (98);
+		exit(98);
 	}
 
-	num1 = atoi(argv[1]);
-	num2 = atoi(argv[3]);
+	oprt = get_op_func(argv[2]);
 
-	op_func = get_op_func(argv[2]);
-
-	if (op_func == NULL)
+	if (!oprt)
 	{
 		printf("Error\n");
-		return (99);
+		exit(99);
 	}
 
-	if ((argv[2][0] == '/' || argv[2][0] == '%') && num2 == 0)
-	{
-		printf("Error\n");
-		return (100);
-	}
-
-	result = op_func(num1, num2);
-
-	printf("%d\n", result);
-
+	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
