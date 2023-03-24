@@ -1,7 +1,10 @@
 #include "main.h"
 #include  <stdio.h>
+
 /**
- * main - This is the entry point
+ * main - program that prints _putchar, followed by a new line.
+ * use _putchar function
+ *
  * Return: 0 (success)
  */
 int main(void)

@@ -2,6 +2,8 @@
 
 /**
  * print_alphabet_x10 - printing a-z followed by a new line ten times
+ * using _putchar function
+ *
  * Return: void
  */
 void print_alphabet_x10(void)
