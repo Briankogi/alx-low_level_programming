@@ -9,18 +9,16 @@
 
 int print_last_digit(int n)
 {
-	int a, b;
+	int ldigit;
 
-	b = -1;
-
-	if (n < 0)
+	ldigit % 10;
+	
+	if (ldigit < 0)
 	{
-		n *= b;
+		ldigit *= -1;
 	}
 
-	a = n  % 10;
-
-	_putchar(a + '0');
+	_putchar(last_digit + '\0');
 
 	return (a);
 }
